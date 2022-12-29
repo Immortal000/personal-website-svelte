@@ -17,7 +17,7 @@
 	</div>
 	<div class="contacts">
 		<ul>
-			<li
+			<!-- <li
 				on:click={redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/')}
 				on:keydown={redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/')}
 			>
@@ -34,7 +34,10 @@
 				on:keydown={redirect('https://github.com/Immortal000')}
 			>
 				<Fa icon={faGithub} />
-			</li>
+			</li> -->
+			<li><Fa icon={faLinkedin} /></li>
+			<li><Fa icon={faInbox} /></li>
+			<li><Fa icon={faGithub} /></li>
 		</ul>
 	</div>
 </div>

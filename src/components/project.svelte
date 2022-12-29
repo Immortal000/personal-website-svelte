@@ -1,5 +1,6 @@
 <script>
 	import Bar from './bar.svelte';
+	import Border from './border.svelte';
 
 	export let languages;
 	export let url;
@@ -8,7 +9,9 @@
 	const language_count = {};
 
 	const redirect = () => {
-		window.open(url);
+		if (url != undefined) {
+			window.open(url);
+		}
 	};
 
 	let languages_total_lines = 0;
@@ -27,7 +30,8 @@
 	<p class="title">{info['title']}</p>
 	<p class="desc">{info['desc']}</p>
 
-	<Bar languages={language_count} />
+	<!-- <Bar languages={language_count} /> -->
+	<!-- <Border languages={language_count} /> -->
 
 	<!-- <div class="languages">
 		{#each Object.keys(language_count) as language}
@@ -57,5 +61,9 @@
 		.desc {
 			line-height: 18px;
 		}
+	}
+
+	.project:hover {
+		scale: 1.05;
 	}
 </style>

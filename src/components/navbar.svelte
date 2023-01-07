@@ -17,24 +17,36 @@
 	</div>
 	<div class="contacts">
 		<ul>
-			<!-- <li
-				on:click={redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/')}
-				on:keydown={redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/')}
+			<li
+				on:click={() => {
+					redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/');
+				}}
+				on:keydown={() => {
+					redirect('https://www.linkedin.com/in/siddarth-kotthur-5a098a1a2/');
+				}}
 			>
 				<Fa icon={faLinkedin} />
 			</li>
 			<li
-				on:click={redirect('mailto:kotthursiddarth@gmail.com')}
-				on:keydown={redirect('mailto:kotthursiddarth@gmail.com')}
+				on:click={() => {
+					redirect('mailto:kotthursiddarth@gmail.com');
+				}}
+				on:keydown={() => {
+					redirect('mailto:kotthursiddarth@gmail.com');
+				}}
 			>
 				<Fa icon={faInbox} />
 			</li>
 			<li
-				on:click={redirect('https://github.com/Immortal000')}
-				on:keydown={redirect('https://github.com/Immortal000')}
+				on:click={() => {
+					redirect('https://github.com/Immortal000');
+				}}
+				on:keydown={() => {
+					redirect('https://github.com/Immortal000');
+				}}
 			>
 				<Fa icon={faGithub} />
-			</li> -->
+			</li>
 			<li><Fa icon={faLinkedin} /></li>
 			<li><Fa icon={faInbox} /></li>
 			<li><Fa icon={faGithub} /></li>

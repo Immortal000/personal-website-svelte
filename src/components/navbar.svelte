@@ -47,9 +47,6 @@
 			>
 				<Fa icon={faGithub} />
 			</li>
-			<li><Fa icon={faLinkedin} /></li>
-			<li><Fa icon={faInbox} /></li>
-			<li><Fa icon={faGithub} /></li>
 		</ul>
 	</div>
 </div>

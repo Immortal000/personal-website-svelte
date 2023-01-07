@@ -39,7 +39,13 @@ let project_urls = [
 		user: default_user,
 		name: 'uno',
 		title: 'Uno',
-		desc: '🎴 Valorant themed UNO game KEKW'
+		desc: '🎴🚧 Valorant themed UNO game KEKW'
+	}, 
+	{
+		user: default_user, 
+		name: 'personal-website-svelte', 
+		title: 'Personal Website', 
+		desc: '🕸️🚧 My personal website'
 	}
 ];
 

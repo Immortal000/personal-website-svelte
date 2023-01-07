@@ -6,7 +6,8 @@
 		JavaScript: 'yellow',
 		Vue: 'green',
 		CSS: 'purple',
-		HTML: 'orange'
+		HTML: 'orange',
+		Svelte: 'white'
 	};
 
 	// for (var i = 0; i < 7; i++) {

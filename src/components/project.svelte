@@ -28,7 +28,7 @@
 	<p class="title">{info['title']}</p>
 	<p class="desc">{info['desc']}</p>
 
-	<!-- <Bar languages={language_count} /> -->
+	<Bar languages={language_count} />
 	<!-- <Border languages={language_count} /> -->
 
 	<!-- <div class="languages">

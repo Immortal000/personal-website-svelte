@@ -34,6 +34,12 @@ let project_urls = [
 		name: 'strpase',
 		title: 'Strparse',
 		desc: '🅰️ A string parsing module for npm'
+	},
+	{
+		user: default_user,
+		name: 'uno',
+		title: 'Uno',
+		desc: '🎴 Valorant themed UNO game KEKW'
 	}
 ];
 

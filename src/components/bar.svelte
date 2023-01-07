@@ -7,7 +7,8 @@
 		Vue: 'green',
 		CSS: 'purple',
 		HTML: 'orange',
-		Svelte: 'white'
+		Svelte: 'white',
+		SCSS: 'indigo'
 	};
 
 	// for (var i = 0; i < 7; i++) {

@@ -8,7 +8,10 @@
 
 <div class="introduction_container">
 	<h1>👋 Hi, Im Sid</h1>
-	<p>... Paragraph about myself?</p>
+	<p>
+		I am a full time student and an aspiring Full Stack Developer with a keen interest in JavaScript
+		frameworks
+	</p>
 </div>
 
 <div class="project_container">

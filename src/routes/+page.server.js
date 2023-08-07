@@ -11,12 +11,12 @@ let project_urls = [
 		desc: '📈 Website to simulate stock trading'
 	},
 	{ user: default_user, name: 'uta-bot', title: 'Uta Bot', desc: '🎤 A karaoke bot for discord' },
-	{
-		user: 'mithunb9',
-		name: 'nhssystem',
-		title: 'NHS System',
-		desc: '🏫 Website to check NHS eligbility for my high school'
-	},
+	// {
+	// 	user: 'mithunb9',
+	// 	name: 'nhssystem',
+	// 	title: 'NHS System',
+	// 	desc: '🏫 Website to check NHS eligbility for my high school'
+	// },
 	{
 		user: default_user,
 		name: 'spell-bee',
@@ -42,9 +42,9 @@ let project_urls = [
 		desc: '🎴🚧 Valorant themed UNO game KEKW'
 	},
 	{
-		user: default_user, 
-		name: 'personal-website-svelte', 
-		title: 'Personal Website', 
+		user: default_user,
+		name: 'personal-website-svelte',
+		title: 'Personal Website',
 		desc: '🕸️🚧 My personal website'
 	}
 ];

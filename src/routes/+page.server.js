@@ -36,12 +36,6 @@ let project_urls = [
 		desc: '🅰️ A string parsing module for npm'
 	},
 	{
-		user: default_user,
-		name: 'uno',
-		title: 'Uno',
-		desc: '🎴🚧 Valorant themed UNO game KEKW'
-	}, 
-	{
 		user: default_user, 
 		name: 'personal-website-svelte', 
 		title: 'Personal Website', 
